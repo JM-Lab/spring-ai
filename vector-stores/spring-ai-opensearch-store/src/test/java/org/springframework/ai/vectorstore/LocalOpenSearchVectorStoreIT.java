@@ -62,7 +62,7 @@ class LocalOpenSearchVectorStoreIT {
 
     @Container
     private static final OpensearchContainer<?> opensearchContainer =
-            new OpensearchContainer<>(DockerImageName.parse("opensearchproject/opensearch:2.12.0"));
+            new OpensearchContainer<>(DockerImageName.parse("opensearchproject/opensearch:2.13.0"));
 
     private static final String DEFAULT = "default cosine similarity";
 
